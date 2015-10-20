@@ -1,0 +1,13 @@
+Bienvenue dans le célèbre jeu du Snake.
+Dans cette variante, il n'y a qu'un seul niveau (pour que les meilleurs scores soient objectifs) et pas d'obstacles.
+Le principe du jeu est le suivant :
+- vous contrôlez une longue et fine créature semblable à un serpent, qui doit slalomer entre les bords de l'écran (le monde)
+- pour augementer votre score, vous devez faire manger à votre serpent le fruit qui se trouve dans le même monde que lui
+- à chaque fois qu'il mange un fruit, le serpent grandit
+- quand le jeu n'est pas en pause, le serpent ne s'arrête jamais et vous ne pouvez lui indiquer que
+la direction à suivre afin d'éviter que la tête du serpent ne touche les murs ou son propre corps
+- l'indication de la direction à suivre se fait à l'aide des flèches du clavier et
+vous pouvez mettre le jeu en pause en appuyant sur la touche Espace
+- vous pouvez quitter le mode pause en appuyant sur la flèche correspondant à la direction souhaitée
+
+Appuyez sur OK si vous êtes prêts à jouer !
