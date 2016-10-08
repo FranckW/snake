@@ -18,6 +18,7 @@ public class Fruit extends Content {
 	// private constructor assuring us that we can only have one instance of the class Fruit
 	private Fruit(int x, int y) {
 		super(x,y);
+		System.out.println("hello");
 	}
 	
 	/**
@@ -31,6 +32,7 @@ public class Fruit extends Content {
 		} while (Snake.THE_SNAKE.occupyCell(c));
 		// once we have a valid position, we fix it as the position of the fruit
 		this.setContentPosition(c.getCellAbscissa(),c.getCellOrdinate());
+		System.out.println("hello again");
 		// we notify the observers (the view) that an event corresponding to a position change has been launched, and the view has to redraw its content
 		Event e = new Event(this);
 		Model.THE_MODEL.notifyObservers(e);
