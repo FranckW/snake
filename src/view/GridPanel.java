@@ -11,6 +11,8 @@ public class GridPanel extends JPanel {
 	
 	// Eclipse told me to do it... :)
 	private static final long serialVersionUID = 1L;
+	
+	private int ajoutdattribut;
 
 	/**
 	 * paint the components of the panel
