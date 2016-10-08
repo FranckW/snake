@@ -9,3 +9,5 @@ Listing des dossiers et fichiers du projet
 
 Instruction :
 	- se placer à la racine du projet (dossier snake) et lancer la commande : java -jar snake.jar
+	
+	Modification du readme§§
