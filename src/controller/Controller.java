@@ -34,6 +34,7 @@ public class Controller implements KeyListener, ActionListener {
 	@Override
 	public void keyPressed(KeyEvent e) {
 		this.handlePressedKey(e.getKeyCode());
+		System.out.println("hello");
 	}
 
 	// changes the view or the model if a key is pressed
@@ -82,6 +83,7 @@ public class Controller implements KeyListener, ActionListener {
 		// we handle the pressed key, tell the model to start its "behavior" and show the updated score (if the snake ate the fruit)
 		this.handlePressedKey(this.pressedKeyCode);
 		Model.THE_MODEL.behave();
+		System.out.println("hi");
 		View.THE_VIEW.showScore();
 	}
 
